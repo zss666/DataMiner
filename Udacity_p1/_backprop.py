@@ -1,6 +1,7 @@
 import numpy as np
 from copy import copy
-# import
+from sklearn.ensemble import BaggingClassifier, RandomForestClassifier, AdaBoostClassifier
+bagging_classifier = BaggingClassifier(n_estimators=200)
 
 # Example backpropagation code for binary classification with 2-layer
 # neural network (single hidden layer)
